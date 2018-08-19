@@ -1,0 +1,222 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    cursor: default;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+
+body,
+html {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: #2C2F33;
+    background-size: cover;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+a {
+    color: #039BE5;
+    outline: none;
+    text-decoration: none;
+    transition: .2s;
+}
+
+a:focus {
+    color: #006AD1;
+}
+
+a:hover {
+    color: #006AD1;
+    cursor: pointer;
+}
+
+hr {
+    background: #000000;
+    border: none;
+    height: 1px;
+}
+
+.flex {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inline-flex {
+    -webkit-display: inline-flex;
+    -moz-display: inline-flex;
+    -ms-display: inline-flex;
+    -o-display: inline-flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.no-display {
+    -webkit-display: none !important;
+    -moz-display: none !important;
+    -ms-display: none !important;
+    -o-display: none !important;
+    display: none !important;
+}
+
+.no-select {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    height: 36px;
+    line-height: 36px;
+    margin: 2.5px;
+    max-width: 200px;
+    min-width: 200px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.section {
+    padding: 5%;
+    text-align: center;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    list-style-type: none;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown li {
+    display: inline-block;
+}
+
+.links {
+    font-size: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.social {
+    font-size: 3rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.social li {
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.fab {
+    color: #FFFFFF;
+    transition: .2s;
+}
+
+.facebook:hover {
+    color: #3B5998;
+}
+
+.discord:hover {
+    color: #7289DA;
+}
+
+.steam:hover {
+    color: #000000;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.youtube:hover {
+    color: #FF0000;
+}
+
+@media only screen and (min-width: 0px) {
+    html {
+        font-size: 14px;
+    }
+
+    .section > img {
+        width: 128px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 14.5px;
+    }
+
+    .section > img {
+        width: 192px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+
+    .section > img {
+        width: 256px;
+    }
+}
